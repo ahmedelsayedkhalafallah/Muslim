@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:fillViewport="true"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.ahmed.muslam.welcome_Activity">
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginBottom="49dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="43dp"
+        android:layout_marginTop="120dp"
+        android:textSize="15dp"
+        android:fontFamily="cursive"
+        android:layout_marginStart="43dp"
+        android:text="بالضغط على موافقة ، فإنك تقر أمام الله بعدم الغش وأن تقوم بإدخال بيانات صحيحة" />
+
+    <LinearLayout
+        android:layout_below="@id/textView4"
+        android:layout_width="match_parent"
+        android:layout_centerInParent="true"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center">
+        <EditText
+        android:id="@+id/name"
+        android:layout_width="match_parent"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="5dp"
+        android:layout_height="wrap_content"
+        android:hint="First Name"
+        android:inputType="text"
+        />
+    <EditText
+        android:id="@+id/pass"
+        android:layout_below="@id/name"
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="5dp"
+        android:layout_centerHorizontal="true"
+        android:layout_height="wrap_content"
+        android:hint="Last Name"
+        />
+    <Button
+        android:id="@+id/submit"
+        android:layout_below="@id/pass"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:onClick="submit"
+        android:text="موافقة"
+        tools:ignore="OnClick" />
+    </LinearLayout>
+
+
+</RelativeLayout>
+</ScrollView>

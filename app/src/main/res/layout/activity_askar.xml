@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.ahmed.muslam.AskarActivity"
+    android:background="@drawable/background">
+    <Button
+        android:id="@+id/sabah"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:text="أذكار الصباح"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/rounded_button"
+        android:paddingTop="6dp"
+        android:layout_margin="8dp"/>
+
+    <Button
+        android:id="@+id/masaa"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:text="أذكار المساء"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/rounded_button"
+        android:paddingTop="6dp"
+        android:layout_margin="8dp"/>
+
+    <Button
+        android:id="@+id/estghfar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:text="الاستغفار"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/rounded_button"
+        android:paddingTop="6dp"
+        android:layout_margin="8dp"/>
+
+    <Button
+        android:id="@+id/hawl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:text="لا حول ولا قوة إلا بالله"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/rounded_button"
+        android:paddingTop="6dp"
+        android:layout_margin="8dp"/>
+
+    <Button
+        android:id="@+id/tasbeeh"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:text="سبحان الله"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/rounded_button"
+        android:paddingTop="6dp"
+        android:layout_margin="8dp"/>
+
+    <Button
+        android:id="@+id/hamd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:text="الحمدلله"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/rounded_button"
+        android:paddingTop="6dp"
+        android:layout_margin="8dp"/>
+
+    <Button
+        android:id="@+id/tawheed"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:text="لا إله إلا الله"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/rounded_button"
+        android:paddingTop="6dp"
+        android:layout_margin="8dp"/>
+
+    <Button
+        android:id="@+id/takbeer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:text="الله أكبر"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/rounded_button"
+        android:paddingTop="6dp"
+        android:layout_margin="8dp"/>
+    <Button
+        android:id="@+id/sala"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:text="صلاة على النبي"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/rounded_button"
+        android:paddingTop="6dp"
+        android:layout_margin="8dp"/>
+</LinearLayout>
+</ScrollView>

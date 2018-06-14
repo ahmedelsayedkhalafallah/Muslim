@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        tools:context="com.example.ahmed.muslam.PrayActivity"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/background">
+
+
+
+    <Button
+        android:id="@+id/fajr"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="22sp"
+        android:text="الفجر"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/rounded_button"
+        android:paddingTop="8dp"
+        android:layout_margin="10dp"/>
+
+
+
+
+    <Button
+        android:id="@+id/doha"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="22sp"
+        android:layout_margin="8dp"
+        android:text="الضحي "
+        android:paddingTop="10dp"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/rounded_button"/>
+
+
+
+
+    <Button
+        android:id="@+id/zuhr"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="22sp"
+        android:layout_margin="8dp"
+        android:paddingTop="10dp"
+        android:text="الضهر"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/rounded_button" />
+
+
+    <Button
+        android:id="@+id/jomaa"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="22sp"
+        android:layout_margin="8dp"
+        android:paddingTop="10dp"
+        android:text="الجمعة"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/rounded_button" />
+
+
+
+    <Button
+        android:id="@+id/asr"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="22sp"
+        android:layout_margin="8dp"
+        android:paddingTop="10dp"
+        android:text="العصر"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/rounded_button"/>
+
+
+
+
+    <Button
+        android:id="@+id/maghrib"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="22sp"
+        android:layout_margin="8dp"
+        android:paddingTop="10dp"
+        android:text="المغرب"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/rounded_button"/>
+
+
+
+
+    <Button
+        android:id="@+id/eshaa"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="22sp"
+        android:layout_margin="8dp"
+        android:paddingTop="10dp"
+        android:text="العشاء"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/rounded_button"/>
+
+
+
+    <Button
+        android:id="@+id/qiam"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="قيام الليل"
+        android:textSize="22sp"
+        android:layout_margin="8dp"
+        android:paddingTop="10dp"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/rounded_button"/>
+
+
+
+</LinearLayout>
+</ScrollView>
